@@ -1,0 +1,12 @@
+my_string = input('Привет, мой друг, как тебя зовут? ')
+print('Здравствуйте,', my_string)
+my_rep = input('Очень приятно, сколько вам лет?')
+current_year = 2024
+date_of_birth = current_year - int(my_rep)
+print('Ваш год рождения',date_of_birth)
+my_string = ('Привет, мой друг, как тебя зовут?')
+print(my_string = input().upper())
+print(my_string.lower())
+print(my_string.replace(' ',''))
+print(my_string[0])
+print(my_string[-1])
